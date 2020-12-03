@@ -1,9 +1,9 @@
 package com.jishi.daichao;
 
+import android.app.Fragment;
+import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.FrameLayout;
@@ -30,8 +30,8 @@ import butterknife.OnClick;
 public class MainActivity extends RxBaseActivity {
     private int selectTabId = 0;
     private final int USER_LOGIN = 1;
-    private List<Fragment> fragmentEntities;
-    private Fragment mContent;
+    private List<android.app.Fragment> fragmentEntities;
+    private android.app.Fragment mContent;
     private Intent intent;
     private long firstTime = 0;
     @BindView(R.id.contentView)
@@ -64,7 +64,7 @@ public class MainActivity extends RxBaseActivity {
     @Override
     protected void initParams() {
         initDate();
-        mContent = new Fragment();
+        mContent = new android.app.Fragment();
         setCurrentTab(0);
     }
 
@@ -79,7 +79,7 @@ public class MainActivity extends RxBaseActivity {
      * @return
      */
     private void initDate() {
-        fragmentEntities = new ArrayList<Fragment>();
+        fragmentEntities = new ArrayList<android.app.Fragment>();
         fragmentEntities.add(new HomeFragment());
         fragmentEntities.add(new BorrowFragment());
         fragmentEntities.add(new ChargeFragment());
@@ -180,7 +180,7 @@ public class MainActivity extends RxBaseActivity {
      * @param to
      */
     public void switchContent(Fragment to) {
-        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        FragmentTransaction transaction = getFragmentManager( ).beginTransaction( );
         if (mContent != to) {
             // 先判断是否被add过
             if (!to.isAdded()) {

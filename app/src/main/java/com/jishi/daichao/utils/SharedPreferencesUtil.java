@@ -3,7 +3,8 @@ package com.jishi.daichao.utils;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
-import android.support.annotation.Nullable;
+
+import androidx.annotation.Nullable;
 
 /**
  * Created by laulee on 17/10/25.

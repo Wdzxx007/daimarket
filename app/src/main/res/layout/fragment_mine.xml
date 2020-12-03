@@ -16,7 +16,7 @@
         android:textColor="@color/black"
         android:textSize="17sp" />
 
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_me_asset_view_gridmenu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

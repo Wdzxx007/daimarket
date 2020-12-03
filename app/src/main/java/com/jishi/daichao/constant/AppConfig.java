@@ -2,7 +2,8 @@ package com.jishi.daichao.constant;
 
 import android.app.Activity;
 import android.content.Context;
-import android.support.v4.app.FragmentActivity;
+
+import androidx.fragment.app.FragmentActivity;
 
 import com.jishi.daichao.MainActivity;
 import com.jishi.daichao.app.App;

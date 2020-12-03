@@ -5,17 +5,18 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.support.v7.widget.AppCompatTextView;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.Display;
 import android.view.WindowManager;
 
+import androidx.appcompat.widget.AppCompatTextView;
+
 /**
  * Created by Administrator on 2018/10/31.
  */
 
-public class ScollTextView extends AppCompatTextView  {
+public class ScollTextView extends AppCompatTextView {
     public final static String TAG = ScollTextView.class.getSimpleName();
 
     private float textLength = 0f;//文本长度

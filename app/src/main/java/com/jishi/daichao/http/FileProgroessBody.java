@@ -1,6 +1,7 @@
 package com.jishi.daichao.http;
 
-import android.support.annotation.Nullable;
+
+import androidx.annotation.Nullable;
 
 import com.jishi.daichao.http.callback.DownLoadProgressListener;
 

@@ -1,13 +1,11 @@
 package com.jishi.daichao.fragments;
-
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import com.jishi.daichao.R;
 import com.jishi.daichao.adapter.BorrowListAdapter;
 import com.jishi.daichao.base.RxBaseFragment;
@@ -16,11 +14,9 @@ import com.jishi.daichao.presenter.BorrowFragmentPresenter;
 import com.jishi.daichao.presenter.contact.BorrowFragmentContact;
 import com.jishi.daichao.widget.LoanSelectWindow;
 import com.scwang.smartrefresh.layout.SmartRefreshLayout;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;

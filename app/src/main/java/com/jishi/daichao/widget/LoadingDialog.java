@@ -4,9 +4,10 @@ import android.app.Dialog;
 import android.content.Context;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.view.animation.LinearInterpolator;
 import android.widget.ImageView;
+
+import androidx.annotation.NonNull;
 
 import com.jishi.daichao.R;
 

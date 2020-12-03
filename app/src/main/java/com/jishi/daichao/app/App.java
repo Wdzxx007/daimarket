@@ -3,6 +3,8 @@ package com.jishi.daichao.app;
 import android.app.Application;
 import android.content.Context;
 
+import androidx.multidex.MultiDex;
+
 import com.jishi.daichao.BuildConfig;
 import com.jishi.daichao.utils.LogUtil;
 import com.jishi.daichao.utils.SharedPreferencesUtil;
@@ -27,6 +29,7 @@ public class App extends Application {
         ToastUtil.getInstance(this);
         //初始化SharedPreferencesUtil
         SharedPreferencesUtil.init(instance);
+        MultiDex.install(this);
 
 
     }

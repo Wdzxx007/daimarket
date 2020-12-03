@@ -1,13 +1,14 @@
 package com.jishi.daichao.base;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.view.View;
 import android.widget.TextView;
 
+import androidx.annotation.Nullable;
+
 import com.jishi.daichao.R;
 import com.jishi.daichao.app.ActivityManager;
-import com.trello.rxlifecycle2.components.support.RxFragmentActivity;
+import com.trello.rxlifecycle4.components.support.RxFragmentActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
