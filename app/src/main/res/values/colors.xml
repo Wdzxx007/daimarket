@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#D9D7D7</color>
+    <color name="colorYellow">#E9DBB5</color>
+    <!--分割线-->
+    <color name="dividing_line">#E1E1E1</color>
+    <color name="split_line">#E1E1E1</color>
+    <color name="white_text">#ffffffff</color>
+    <color name="white_background">#FFFFFF</color>
+    <color name="gray_line">#D4D7DD</color>
+    <color name="redText">#F46464</color>
+    <!--辅色-->
+    <color name="remain_start_red">#F95F53</color>
+    <color name="text_deep_black">#333333</color>
+    <color name="null_background">#00000000</color>
+    <color name="black_background">#b02d2e3d</color>
+    <color name="auth_line_black">#484848</color>
+    <color name="bar_grey">#393a3e</color>
+    <color name="borrow_background">#F8F9FB</color>
+    <color name="color_f6">#f6f6f6</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="blue">#7D7DFF</color>
+    <color name="color_fa">#fafafa</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="color_c51">#f94c51</color>
+    <color name="color_green">#43c117</color>
+    <color name="main_tab_home_selcet_text">#4F55A6</color>
+    <color name="main_tab_home_unselcet_text">#BFC2CD</color>
+    <color name="login_register_black">#2E2E54</color>
+    <color name="check_view_black">#3E3E3E</color>
+    <color name="edt_hint_color">#B2B4C6</color>
+    <color name="next_grey_color">#D8DAE7</color>
+    <color name="black_null_background">#4d000000</color>
+    <color name="check_view_color">#545EB0</color>
+    <color name="check_view_background_color">#EEEEEE</color>
+    <color name="btn_do_background_color">#4D53A3</color>
+    <color name="btn_start_do_background_color">#677BD1</color>
+    <color name="check_view_edt_color">#FAFAFA</color>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">贷超</string>
+    <string name="main_tab_home">首页</string>
+    <string name="main_tab_borrow">我要贷款</string>
+    <string name="main_tab_charge">记账</string>
+    <string name="main_tab_me">个人中心</string>
+    <string name="login_register">登录/注册</string>
+    <string name="password_login">密码登录</string>
+    <string name="auth_code">短信验证码</string>
+    <string name="get_auth_code">重发验证码</string>
+    <string name="cancel">取消</string>
+    <string name="sure">确认</string>
+</resources>

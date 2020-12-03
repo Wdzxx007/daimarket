@@ -1,0 +1,93 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/bar_grey</item>
+        <item name="colorPrimaryDark">@color/bar_grey</item>
+        <item name="colorAccent">@color/bar_grey</item>
+    </style>
+
+
+    <!--1px灰色竖线-->
+    <style name="gray_line_1px_vertical">
+        <item name="android:layout_width">1px</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/gray_line</item>
+    </style>
+    <!--1px白色竖线-->
+    <style name="white_line_1px_vertical">
+        <item name="android:layout_width">1px</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/white_text</item>
+    </style>
+    <!--1px黑色竖线-->
+
+    <!--1px红色竖线-->
+    <style name="red_line_1px_vertical">
+        <item name="android:layout_width">1px</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/red_text</item>
+    </style>
+
+    <!--1px分割横线-->
+    <style name="spacing_line_1px_horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/dividing_line</item>
+    </style>
+
+    <!--1px灰色横线-->
+    <style name="gray_line_1px_horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/gray_line</item>
+    </style>
+    <!--1px灰色分割横线-->
+    <style name="gray_split_line_1px_horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/split_line</item>
+    </style>
+
+
+    <style name="noTitleDialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <color name="red_text">#F46464</color>
+    <!--自定义seekbarstyle-->
+    <style name="CustomSeekbarStyle" >
+        <item name="android:maxHeight">10dp</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@color/colorYellow</item>
+        <item name="android:progressDrawable">@drawable/seekbar_progress_bg</item>
+        <item name="android:minHeight">10dp</item>
+        <item name="android:thumb">@mipmap/icon_seekbar_buttom</item>
+    </style>
+    <!--1px灰色横线-->
+    <style name="gray_line_2px_horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2px</item>
+        <item name="android:background">@color/gray_line</item>
+    </style>
+
+    <style name="m_progress_bar_style">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/progress_bar_bg</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:minHeight">2dip</item>
+        <item name="android:maxHeight">2dip</item>
+        <item name="android:mirrorForRtl">true</item>
+    </style>
+    <declare-styleable name="CircleProgressBar">
+        <attr name="outCircleColor" format="color"></attr>
+        <attr name="inCircleColor" format="color"></attr>
+        <attr name="progressColor" format="color"></attr>
+        <attr name="textColor" format="color"></attr>
+        <attr name="textBold" format="boolean"></attr>
+        <attr name="lineWidth" format="dimension"></attr>
+
+    </declare-styleable>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:angle="360"
+        android:endColor="@color/btn_do_background_color"
+        android:startColor="@color/btn_start_do_background_color"
+        android:type="linear"/>
+    <!--圆角角度-->
+    <corners android:radius="45dp"/>
+
+</shape>

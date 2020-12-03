@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black_null_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_null_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:background="@color/white_background"
+            android:id="@+id/tv_comprehensive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="综合"
+            android:textColor="@color/main_tab_home_selcet_text"
+            android:textSize="15sp" />
+        <View
+            style="@style/gray_line_1px_horizontal"/>
+        <TextView
+            android:background="@color/white_background"
+            android:id="@+id/tv_easy_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="易通过"
+            android:textColor="@color/login_register_black"
+            android:textSize="15sp" />
+        <View
+            style="@style/gray_line_1px_horizontal"/>
+        <TextView
+            android:background="@color/white_background"
+            android:id="@+id/tv_limit_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="额度升序"
+            android:textColor="@color/login_register_black"
+            android:textSize="15sp" />
+        <View
+            style="@style/gray_line_1px_horizontal"/>
+        <TextView
+            android:background="@color/white_background"
+            android:id="@+id/tv_limit_down"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="额度降序"
+            android:textColor="@color/login_register_black"
+            android:textSize="15sp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>
