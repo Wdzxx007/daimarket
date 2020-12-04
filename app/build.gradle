@@ -12,7 +12,10 @@ android {
         multiDexEnabled true
         javaCompileOptions {
             annotationProcessorOptions {
-                arguments = [moduleName: project.getName()]
+                arguments += ["moduleName"           : project.getName(),
+                              "room.schemaLocation"  : "$projectDir/schemas".toString(),
+                              "room.incremental"     : "true",
+                              "room.expandProjection": "true"]
             }
         }
     }
@@ -102,4 +105,8 @@ dependencies {
     //一个开源gif控件
     implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.4'
     implementation 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.4'
+    //Room数据库
+    def room_version = "2.2.5"
+    implementation "androidx.room:room-runtime:$room_version"
+    annotationProcessor "androidx.room:room-compiler:$room_version"
 }

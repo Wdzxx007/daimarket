@@ -1,11 +1,15 @@
 package com.jishi.daichao.ui;
+
 import android.content.Intent;
+
 import com.jishi.daichao.MainActivity;
 import com.jishi.daichao.R;
 import com.jishi.daichao.base.RxBaseActivity;
 import com.jishi.daichao.utils.SystemUtil;
 import com.jishi.daichao.utils.ToastUtil;
+
 import java.util.List;
+
 /**
  * Created by Administrator on 2018/8/2.
  */
@@ -24,8 +28,6 @@ public class WelcomePage extends RxBaseActivity {
                 try {
                     //休眠1秒
                     Thread.sleep(1000);
-
-
                     getStart();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
@@ -43,9 +45,9 @@ public class WelcomePage extends RxBaseActivity {
 //                    @Override
 //                    public void onAction(List<String> data) {
 //                        ToastUtil.showToast(SystemUtil.getDeviceOnlyId(WelcomePage.this));
-                        Intent intent = new Intent(WelcomePage.this, MainActivity.class);
-                        startActivity(intent);
-                        finish();
+        Intent intent = new Intent(WelcomePage.this, MainActivity.class);
+        startActivity(intent);
+        finish();
 //                    }
 //                }).onDenied(new Action<List<String>>() {
 //            @Override
