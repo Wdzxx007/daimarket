@@ -95,7 +95,6 @@ dependencies {
     //releaseCompile 'com.github.moduth:blockcanary-no-op:1.2.1'
     debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.4-beta2'
 
-    implementation 'com.yanzhenjie:permission:2.0.0-rc11'
     //evenbus
     implementation 'org.greenrobot:eventbus:3.0.0'
     implementation 'com.github.LuckSiege.PictureSelector:picture_library:v2.2.3'

@@ -62,7 +62,7 @@ public class Base64 {
 
 	/**
 	 * 根据base64进行解密
-	 * @param str加密串
+	 * @param
 	 * @return 解密串
 	 */
 	public static byte[] decode(String str) {

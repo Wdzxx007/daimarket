@@ -30,8 +30,6 @@ public class App extends Application {
         //初始化SharedPreferencesUtil
         SharedPreferencesUtil.init(instance);
         MultiDex.install(this);
-
-
     }
 
     // 清除缓存

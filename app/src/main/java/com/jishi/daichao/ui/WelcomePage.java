@@ -1,18 +1,11 @@
 package com.jishi.daichao.ui;
-
 import android.content.Intent;
-
 import com.jishi.daichao.MainActivity;
 import com.jishi.daichao.R;
 import com.jishi.daichao.base.RxBaseActivity;
 import com.jishi.daichao.utils.SystemUtil;
 import com.jishi.daichao.utils.ToastUtil;
-import com.yanzhenjie.permission.Action;
-import com.yanzhenjie.permission.AndPermission;
-import com.yanzhenjie.permission.Permission;
-
 import java.util.List;
-
 /**
  * Created by Administrator on 2018/8/2.
  */
