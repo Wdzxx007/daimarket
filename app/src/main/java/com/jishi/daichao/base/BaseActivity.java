@@ -6,6 +6,7 @@ import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 
+import com.gyf.immersionbar.ImmersionBar;
 import com.jishi.daichao.R;
 import com.jishi.daichao.app.ActivityManager;
 import com.trello.rxlifecycle4.components.support.RxFragmentActivity;
@@ -63,6 +64,7 @@ public abstract class BaseActivity extends RxFragmentActivity {
             } );
         }
         initParams( );
+        ImmersionBar.with(this).statusBarDarkFont(true).statusBarColor(R.color.white_background).fitsSystemWindows(true).init();
     }
 
     /**

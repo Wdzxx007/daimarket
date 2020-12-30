@@ -6,6 +6,7 @@ import android.content.Context;
 import androidx.multidex.MultiDex;
 
 import com.jishi.daichao.BuildConfig;
+import com.jishi.daichao.permission.SoulPermission;
 import com.jishi.daichao.utils.LogUtil;
 import com.jishi.daichao.utils.SharedPreferencesUtil;
 import com.jishi.daichao.utils.ToastUtil;
@@ -30,6 +31,9 @@ public class App extends Application {
         //初始化SharedPreferencesUtil
         SharedPreferencesUtil.init(instance);
         MultiDex.install(this);
+        //权限
+        SoulPermission.getInstance().init(instance);
+
     }
 
     // 清除缓存

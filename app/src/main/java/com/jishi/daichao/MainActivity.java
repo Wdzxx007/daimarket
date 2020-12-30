@@ -12,6 +12,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.gyf.immersionbar.ImmersionBar;
 import com.jishi.daichao.base.RxBaseActivity;
 import com.jishi.daichao.fragments.BorrowFragment;
 import com.jishi.daichao.fragments.ChargeFragment;
@@ -134,11 +135,13 @@ public class MainActivity extends RxBaseActivity {
                 initCheckDrawable();
                 imgTabHome.setImageResource(R.mipmap.icon_home_select);
                 tvTabHome.setTextColor(getResources().getColor(R.color.main_tab_home_selcet_text));
+                ImmersionBar.with(this).statusBarDarkFont(true).statusBarColor(R.color.white_background).fitsSystemWindows(true).init();
                 break;
             case 1:
                 initCheckDrawable();
                 imgTabBorrow.setImageResource(R.mipmap.icon_dai_select);
                 tvTabBorrow.setTextColor(getResources().getColor(R.color.main_tab_home_selcet_text));
+                ImmersionBar.with(this).statusBarDarkFont(true).statusBarColor(R.color.white_background).fitsSystemWindows(true).init();
                 break;
             case 2:
                 if (!SystemUtil.checkToken(this)) {
@@ -149,12 +152,13 @@ public class MainActivity extends RxBaseActivity {
                 initCheckDrawable();
                 imgTabCharge.setImageResource(R.mipmap.icon_charge_select);
                 lblTabCharge.setTextColor(getResources().getColor(R.color.main_tab_home_selcet_text));
+                ImmersionBar.with(this).statusBarDarkFont(true).statusBarColor(R.color.white_background).fitsSystemWindows(true).init();
                 break;
             case 3:
-
                 initCheckDrawable();
                 imgTabMine.setImageResource(R.mipmap.icon_mine_select);
                 tvTabMine.setTextColor(getResources().getColor(R.color.main_tab_home_selcet_text));
+                ImmersionBar.with(this).statusBarDarkFont(true).statusBarColor(R.color.remain_start_red).fitsSystemWindows(true).init();
                 break;
         }
         switchContent(fragmentEntities.get(position));

@@ -10,4 +10,31 @@
     <string name="get_auth_code">重发验证码</string>
     <string name="cancel">取消</string>
     <string name="sure">确认</string>
+
+    <string name="kh_common_permission_calendar">日历权限</string>
+    <string name="kh_common_permission_camera">相机权限</string>
+    <string name="kh_common_permission_location">定位权限</string>
+    <string name="kh_common_permission_call">电话权限</string>
+    <string name="kh_common_permission_contact">通讯录权限</string>
+    <string name="kh_common_permission_storage">存储权限</string>
+    <string name="kh_common_permission_phone_status">获取手机状态权限</string>
+    <string name="kh_common_permission_undefined">未知权限</string>
+    <string name="kh_common_permission_jump_failed">跳转失败，请自行前往设置中心设置</string>
+    <!-- 二维码 -->
+    <string name="kh_scan_tip">将二维码放入框内, 即可自动扫描</string>
+
+    <!-- 时间 -->
+    <string name="time_just_now">刚刚</string>
+    <string name="time_minute_ago">分钟前</string>
+    <string name="time_hour_ago">小时前</string>
+    <string name="time_day_ago">天前</string>
+    <string name="time_year">年</string>
+    <string name="time_month">月</string>
+    <string name="time_day">日</string>
+    <string name="time_today">今天</string>
+    <string name="time_minute_later">分钟后</string>
+    <string name="time_hour_later">小时后</string>
+    <string name="time_day_later">天后</string>
+    <string name="time_soon_later">很快</string>
+    <string name="download_url">http://xnxbfile.xnxb365.com/</string>
 </resources>
